@@ -1,0 +1,265 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+/* 
+ Paleta de cores:
+ #664a31
+ #b9804f
+ #c58277
+
+ #1d1c1d
+#f6db9a */
+
+.header {
+    height: 15vh;
+    background-color: #1d1c1d;
+    border-bottom: #fac2ac 3px solid;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+   
+}
+
+.header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.header h1 {
+    color:#fac2ac;
+}
+
+.navbar {
+  
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.navbar li {
+    margin-right: 50px;
+    font-weight: lighter;
+    color: #fac2ac;
+}
+
+.navbar li:hover {
+    color: #295396;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fac2ac;
+}
+.navbar li a:hover {
+    color: #295396;
+}
+.navbar .active {
+    font-weight: bolder;
+}
+
+.banner {
+    height: 700px;
+    background-image: url('imagens/banner3.png');
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.banner p {
+    font-weight: 600;
+    font-size: 25px;
+    font-family: cursive;
+    margin-right: 30px;
+    color: #290202;
+}
+
+
+
+
+.proposito {
+    height: 140vh;
+    background-color: #E5E5E5;
+}
+
+.proposito .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proposito .container h2 {
+    padding: 25px;
+    border-radius: 25px;
+    color:  #b9804f;
+}
+
+.proposito .container .militar div img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+} 
+
+.proposito .container .militar {
+   
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.proposito .container .militar div {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.proposito .container .militar div h3 {
+   color:  #b9804f; 
+   font-weight: bolder;
+   margin: 25px 0;
+}
+
+.container .gif{
+    margin-left: 300px;
+    margin-bottom: 0;
+  
+}
+
+.footer {
+    background-color: #1d1c1d;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: white;
+}
+
+.banner .formLogin {
+    background-color:#1d1c1d8f;
+    height: 300px;
+    width: 30%;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner .formLogin h2 {
+    color:  #bdb4b4;
+}
+
+.banner .formLogin div {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .formLogin div span {
+    color:  #bdb4b4;
+    font-weight: 600;
+}
+
+.banner .formLogin div input {
+    border: 2px solid  #bb8a03;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.banner .formLogin button {
+    background-color: #bdb4b4;
+    color: rgb(53, 49, 49);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.banner .formCad {
+    background-color:#1d1c1d8f;
+    height: 400px;
+    width: 30%;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner .formCad h2 {
+    color:  #bdb4b4;
+}
+
+.banner .formCad div {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .formCad div span {
+    color:  #bdb4b4;
+    font-weight: 600;
+}
+
+.banner .formCad div input {
+    border: 2px solid  #bb8a03;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.banner .formCad button {
+    background-color: #bdb4b4;
+    color: rgb(53, 49, 49);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+.banner .issues {
+    background-color:#1d1c1d8f;
+    color: wheat;
+    height: 500px;
+    width: 40%;
+    display: flex;
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner .issues input{
+    border-radius: 20px;
+    height: 30px;
+    border:#290202 3px 3px ;
+}
+
+.banner .issues select{
+    border-radius: 20px;
+    height: 30px;
+    border:#290202 3px 3px ;
+}
+
+.banner .issues button{
+    border-radius: 20px;
+    height: 30px;
+    width: 150px;
+    border:#290202 3px 3px ;
+    background-color:#bdb4b4 ;
+}
